@@ -12,8 +12,12 @@
   </head>
 
   <body class="d-flex flex-column vh-100">
-    <header class="container header-group">
-      <nav class="navbar"></nav>
+    <header>
+      <div class="container header-group">
+        <a href="#mv">
+          <%= image_tag('logo.png') %>
+        </a>
+      </div>
     </header>
     <%= yield %>
   </body>
